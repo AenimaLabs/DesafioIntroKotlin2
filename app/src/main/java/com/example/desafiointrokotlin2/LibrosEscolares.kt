@@ -19,5 +19,5 @@ data class LibrosEscolares (val nombrelibros: String,
         return "$nombrelibros - $isbn - $añopublicacion - $editorial - $cantidadpáginas -${precioFormateado()} - $autor - $tipodelibro"
     }
 }
-}
+
 
